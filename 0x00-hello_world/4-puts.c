@@ -4,7 +4,7 @@
  *  using the function put
  *
  * return the value zero
- * prints "Programming is like building a multilingual puzzle"
+ * prints Programming is like building a multilingual puzzle
  */
 int main(void)
 {
