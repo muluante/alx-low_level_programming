@@ -4,7 +4,6 @@
  * Main -Print the string in the printf
  * Description : using the Main function
  * It pints "with proper grammar, but the outcome is a piece of art,"
- * Not allowed to use puts
  * Returns :Zero
  */
 
