@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * Main -Print the string in the printf
- * Description : using the Main function
- * It pints "with proper grammar, but the outcome is a piece of art,"
- * Returns :Zero
+ * main - print the string in the printf 
+ * description: using main function
+ * it pints "with proper grammar, but the outcome is a piece of art,"
+ * Return:Zero
  */
 
 int main(void)
