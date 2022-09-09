@@ -9,3 +9,4 @@
 8. print_base16
 9. print_comb
 10. print_comb3
+11. print_comb4
