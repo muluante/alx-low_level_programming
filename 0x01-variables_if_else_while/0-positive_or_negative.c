@@ -18,7 +18,7 @@ int main(void)
 
 	int num;
 
-	strand(time(0));
+	srand(time(0));
 	num = rand() - RAND_MAX / 2;
 
 	if (num > 0)
