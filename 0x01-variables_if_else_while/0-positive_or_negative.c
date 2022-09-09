@@ -1,5 +1,5 @@
 /*
- * File: 0-posetive_or_negative.c
+ * File: Zero-posetive_or_negative.c
  *
  */
 
@@ -22,10 +22,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("%d is Posetive\n", n);
+		printf("%d is positive\n", n);
 	else if (n < 0)
-		printf("%d is Negative\n", n);
+		printf("%d is negative\n", n);
 	else
-		printf("%d is Zero\n", n);
+		printf("%d is zero\n", n);
 	return (0);
 }
