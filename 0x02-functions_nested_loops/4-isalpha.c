@@ -4,7 +4,7 @@
  * @c: is the int that will  use
  * Return: zero
  */
-int _isalpha(int c)
+int _isalphabet(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
