@@ -21,7 +21,7 @@ int main(void)
 	num2 = (bk1 + bk2) % LARGEST;
 	num3 = fr1 + fr2 + num1;
 	fr1 = fr2, fr2 = num3;
-	b1 = bk2, bk2 = num2;
+	bk1 = bk2, bk2 = num2;
 	printf("%lu%010lu", fr2, bk2);
 	}
 	else
