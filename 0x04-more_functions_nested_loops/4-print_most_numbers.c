@@ -18,5 +18,5 @@ void print_most_numbers(void)
 		}
 		putchar(num);
 	}
-	putchar(num);
+	putchar(10);
 }
