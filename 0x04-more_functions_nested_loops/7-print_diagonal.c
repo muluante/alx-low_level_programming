@@ -1,33 +1,24 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_diagonal - prints in a diagonal
- * @n: parameter
- * Return: return nothing
+ * print_diagonal - print diagonal
+ * @n: diagonal
+ * Return: xero
  */
-
 void print_diagonal(int n)
 {
-	int a, b;
-
-	if (a > 0)
+	int i, j;
+	
+	if (n <= 0)
+		_putchar('\n');
+	else
 	{
-		for (a = 0; a < n; a++)
+		for (i = 0; i < n; i++)
 		{
-			for (b = 0; b < a; b++)
-			{
-				putchar(' ');
-			}
-
-			putchar('\\');
-
-			if (a == (n - 1))
-			{
-				continue;
-			}
-			putchar('\n');
+			for (j = 0; j < i; j++)
+				_putchar(' ');
+			_putchar('\\');
+			_putchar('\n');
 		}
 	}
-	putchar('\n');
 }
