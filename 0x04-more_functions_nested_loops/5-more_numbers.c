@@ -16,9 +16,9 @@ void more_numbers(void)
 		{
 			if (num2 > 9)
 			{
-				putchar((num2 / 10) * '0');
+				putchar((num2 / 10) + '0');
 			}
-			putchar((num2 % 10) * '0');
+			putchar((num2 % 10) + '0');
 		}
 		putchar(10);
 	}
