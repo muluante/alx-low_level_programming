@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  * _isupper - check the code for Holberton School students.
-  * @c: Character input
-  * Return: Always 0.
+  * _isupper - check if a character is uppercase.
+  * @c: Charactertest
+  * Return: zero
   */
 int _isupper(int c)
 {
