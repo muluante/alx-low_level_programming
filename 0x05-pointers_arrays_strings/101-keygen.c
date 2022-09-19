@@ -20,7 +20,7 @@ int main(void)
 		b += a;
 		printf("%c", a);
 	}
-	printf("%c", 2772 - a);
+	printf("%c", 2772 - b;
 
 	return (0);
 }
