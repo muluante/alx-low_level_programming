@@ -4,7 +4,7 @@
  * _strspn - check the length
  * @s: Array for scanning
  * @accept: Characters to search for
- * Return: Always 0.
+ * Return: nohing to return
  */
 unsigned int _strspn(char *s, char *accept)
 {
