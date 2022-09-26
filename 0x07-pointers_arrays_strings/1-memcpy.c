@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - prints buffer in hexa
+ * _memcpy - prints constant memory buffer
  * @dest: Destination string for copying
  * @src: String to be copied
  * @n: Number of bytes to be copied over
