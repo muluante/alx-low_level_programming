@@ -4,7 +4,7 @@
  * _strstr - locate substrings.
  * @haystack: Array to be searched
  * @needle: Target string
- * Return: Always 0.
+ * Return: nothing to return
  */
 char *_strstr(char *haystack, char *needle)
 {
