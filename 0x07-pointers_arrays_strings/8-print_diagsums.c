@@ -5,7 +5,7 @@
  * print_diagsums - print addition of numbers.
  * @a: Multidimensional array
  * @size: Size of array
- * Return: Always 0.
+ * Return: nothing to return
  */
 void print_diagsums(int *a, int size)
 {
