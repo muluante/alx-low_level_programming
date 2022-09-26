@@ -3,7 +3,7 @@
 /**
  * print_chessboard - two diagonal of square.
  * @a: 8x8 chessboard array
- * Return: Always 0.
+ * Return: nothing to return
  */
 void print_chessboard(char (*a)[8])
 {
