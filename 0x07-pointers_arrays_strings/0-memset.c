@@ -4,7 +4,7 @@
  * _memset - prints memory constant
  * @s: The source array
  * @b: What the array constant for filled
- * @n: length of 
+ * @n: length of
  * Return: New strings to return
  */
 char *_memset(char *s, char b, unsigned int n)
