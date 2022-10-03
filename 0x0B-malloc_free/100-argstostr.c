@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -36,7 +37,7 @@ char *argstostr(int ac, char **av)
 		le = _strlen(av[b]) + 1;
 		to += le;
 	}
-	pt = (int *)malloc(sizeof(char) * to + 1);
+	pt = malloc(sizeof(char) * to + 1);
 	if (!pt)
 		return (NULL);
 	for (b = 0; b < ac; b++)
