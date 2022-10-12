@@ -5,7 +5,7 @@
 /**
  * main - function main
  * @argc: Number of arguments passed in
- * @argv: Arguments stored
+ * @argv: Arguments stored in array
  * Return: nothing to return
  */
 int main(int argc, char *argv[])
