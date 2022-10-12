@@ -1,29 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "3-calc.h"
 
 /**
- * main - function for the main
- * @argc: the argument  number
- * @argv: vector argument
- *
+ * main - function main
+ * @argc: Number of arguments passed in
+ * @argv: Arguments stored
  * Return: nothing to return
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int (*op_func)(int, int), a, b;
+	int result, num1, num2;
+	int (*ptr)(int, int);
 
-	if (argc != 4)
-		printf("Error\n"), exit(98);
+	if (argc < 4 || argv[1] == NULL || argv[3] == NULL)
+	{
+		printf("Error\n");
+		exit(98);
+	}
 
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
+	if ((*argv[2] == '/' || *argv[2] == '%') && *argv[3] == '0')
+	{
+		printf("Error\n");
+		exit(100);
+	}
 
-	op_func = get_op_func(argv[2]);
-	if (!op_func)
-		printf("Error\n"), exit(99);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
 
-	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
-		printf("Error\n"), exit(100);
+	ptr = get_op_func(argv[2]);
 
-	printf("%d\n", op_func(a, b));
+	if (ptr == NULL || argv[2][1] != '\0')
+	{
+		printf("Error\n");
+		exit(99);
+	}
+
+	result = ptr(num1, num2);
+
+	printf("%d\n", result);
+
 	return (0);
 }
